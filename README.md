@@ -13,6 +13,6 @@ To install dependencies
 
 To compile files 
 
-Run by executing
+Run by executing in the terminal 
 
     npm run electron
