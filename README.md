@@ -1,5 +1,5 @@
 # Digit-Recognition-ML-Azure
-Electron client that recognizes handwritten digits using Microsoft Azure Machine Learning Studio
+Electron client that recognizes handwritten digits using Microsoft Azure Machine Learning Studio. Uses NodeJS, Angular, TypeScript, HTML/CSS for developing web app.
 
 The provided files do not include all the Angular dependencies
 
