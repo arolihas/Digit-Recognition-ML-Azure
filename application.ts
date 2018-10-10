@@ -118,7 +118,7 @@ class PixelGrid {
     postRequest(request: any) {
 
         const url = 'https://ussouthcentral.services.azureml.net/workspaces/18e270e90a6c431c84d75467aaa2e91b/services/a086581b24bd4b42aa2cedddb891ee30/execute?api-version=2.0&details=true';
-        const apiKey = 'wOoZ2LAAyomTdz0E6QiLxTQJrvjqiDQpNWcM/0ULFLwTBpjt6ChxGCvqQuSeawae/VICwqxIDac4SwhJEzvprg==';
+        const apiKey;
 
         let body = JSON.stringify(request);
         let headers = new Headers({
