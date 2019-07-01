@@ -90,7 +90,7 @@ var PixelGrid = (function () {
     PixelGrid.prototype.postRequest = function (request) {
         var _this = this;
         var url = 'https://ussouthcentral.services.azureml.net/workspaces/18e270e90a6c431c84d75467aaa2e91b/services/a086581b24bd4b42aa2cedddb891ee30/execute?api-version=2.0&details=true';
-        var apiKey = 'wOoZ2LAAyomTdz0E6QiLxTQJrvjqiDQpNWcM/0ULFLwTBpjt6ChxGCvqQuSeawae/VICwqxIDac4SwhJEzvprg==';
+        var apiKey;
         var body = JSON.stringify(request);
         var headers = new http_1.Headers({
             'Content-Type': 'application/json',
